@@ -6,8 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="2-O\O_Violacao\" />
-    <Folder Include="2-O\O_Solucao\" />
     <Folder Include="3-L\L_Violacao\" />
     <Folder Include="3-L\L_Solucao\" />
     <Folder Include="4-I\I_Violacao\" />
