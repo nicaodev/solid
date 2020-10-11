@@ -6,7 +6,7 @@ namespace SOLID
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Princípios do SOLID exemplificados em estados violados e estados de solução.");
         }
     }
 }

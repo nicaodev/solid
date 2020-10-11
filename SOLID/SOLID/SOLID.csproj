@@ -5,4 +5,19 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="2-O\O_Violacao\" />
+    <Folder Include="2-O\O_Solucao\" />
+    <Folder Include="3-L\L_Violacao\" />
+    <Folder Include="3-L\L_Solucao\" />
+    <Folder Include="4-I\I_Violacao\" />
+    <Folder Include="4-I\I_Solucao\" />
+    <Folder Include="5-D\D_Violacao\" />
+    <Folder Include="5-D\D_Solucao\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
 </Project>
