@@ -1,9 +1,10 @@
-﻿using System.Data;
+﻿using SOLID._5_D.D_Solucao.Interfaces;
+using System.Data;
 using System.Data.SqlClient;
 
-namespace SOLID._1_S.S_Solucao
+namespace SOLID._5_D.D_Solucao
 {
-    public class ClienteRepository
+    public class ClienteRepository : IClienteRepository
     {
         public void AdicionarCliente(Cliente cliente)
         {

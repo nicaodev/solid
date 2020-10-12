@@ -8,6 +8,7 @@ namespace SOLID._1_S.S_Violacao
     /* A Classe cliente não precisa saber como se valida o e-mail, cpf. Como salvar o cadastro no banco e nem como enviar e-mail. Isso tudo são responsabilidades a mais para 1 classe.
      * Ferindo o primeiro princípio que diz que, a classe deve ser mudada apenas por um motivo, aqui, vemos 4.
      */
+
     public class Cliente
     {
         public int ClienteId { get; set; }
@@ -23,7 +24,6 @@ namespace SOLID._1_S.S_Violacao
 
             if (CPF.Length != 11)
                 return "Cliente com CPF inválido";
-
 
             using (var cn = new SqlConnection())
             {

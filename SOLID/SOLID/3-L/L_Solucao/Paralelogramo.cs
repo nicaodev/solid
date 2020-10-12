@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SOLID._3_L.L_Solucao
+﻿namespace SOLID._3_L.L_Solucao
 {
     public abstract class Paralelogramo
     {

@@ -2,9 +2,9 @@
 
 namespace SOLID
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("Princípios do SOLID exemplificados em estados violados e estados de solução.");
         }

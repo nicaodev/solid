@@ -1,15 +1,16 @@
-﻿using System.Net.Mail;
+﻿using SOLID._5_D.D_Solucao.Interfaces;
+using System.Net.Mail;
 
-namespace SOLID._1_S.S_Solucao
+namespace SOLID._5_D.D_Solucao
 {
-    public static class EmailServices
+    public class EmailServices : IEmailServices
     {
-        public static bool IsValid(string email)
+        public bool IsValid(string email)
         {
             return email.Contains("@");
         }
 
-        public static void Enviar(string de, string para, string assunto, string mensagem)
+        public void Enviar(string de, string para, string assunto, string mensagem)
         {
             var mail = new MailMessage(de, para);
             var client = new SmtpClient

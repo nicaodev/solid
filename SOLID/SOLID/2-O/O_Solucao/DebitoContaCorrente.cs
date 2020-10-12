@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SOLID._2_O.O_Solucao
+﻿namespace SOLID._2_O.O_Solucao
 {
     public class DebitoContaCorrente : DebitoConta
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SOLID._1_S.S_Solucao
+namespace SOLID._5_D.D_Violacao
 {
     public class Cliente
     {

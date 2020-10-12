@@ -1,8 +1,7 @@
-﻿namespace SOLID._1_S.S_Solucao
+﻿namespace SOLID._5_D.D_Violacao
 {
     public class ClienteService
     {
-        // Fortemente acoplado a EmailServices(Classe) será resolvido no D.
         public string AdicionarCliente(Cliente cliente)
         {
             if (!cliente.IsValid())
@@ -11,7 +10,8 @@
             var repo = new ClienteRepository();
             repo.AdicionarCliente(cliente);
 
-            EmailServices.Enviar("empresa@empresa.com", cliente.Email, $"{cliente.Nome} Seja bem Vindo", "Parabéns está Cadastrado");
+            EmailServices.Enviar("empresa@empresa.com", cliente.Email, "Bem Vindo", "Parabéns está Cadastrado");
+
             return "Cliente cadastrado com sucesso";
         }
     }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SOLID._3_L.L_Violacao
+﻿namespace SOLID._3_L.L_Violacao
 {
     public class Quadrado : Retangulo
     {
